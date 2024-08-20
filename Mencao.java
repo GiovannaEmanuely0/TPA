@@ -1,51 +1,49 @@
-import java.util.Scanner;
+import java.util.Scanner;;
 public class Mencao {
 
-	public static void main(String[] args) {
-		Scanner ler = new Scanner(System.in);
-		
-		int mb, b, r, i, total;
-		String m;
-		double p;
-		
-		System.out.println("Insira o total de alunos com nota MB");
-		mb = ler.nextInt();
-		
-		System.out.println("Insira o total de alunos com nota B");
-		b = ler.nextInt();
-		
-		System.out.println("Insira o total de alunos com nota R");
-		r = ler.nextInt();
-		
-		System.out.println("Insira o total de alunos com nota I");
-		i = ler.nextInt();
-		
-		total = mb+b+r+i;
-		
-		System.out.println("Insira a mencao para saber a porcentagem");
-		m = ler.next();
-		
-		switch (m) {
-		case "mb":
-			p = mb*100/total;
-			System.out.println("A porcentagem da mencao MB e: "+p+"%");
-			break;
-		case "b":
-			p = b*100/total;
-			System.out.println("A porcentagem da mencao B e: "+p);
-			break;
-		case "r":
-			p = r*100/total;
-			System.out.println("A porcentagem da mencao R e: "+p);
-			break;
-		case "i":
-			p = i*100/total;
-			System.out.println("A porcentagem da mencao I e: "+p);
-			break;
-			
-		}
+public static void main(String[] args) {
+    Scanner gi = new Scanner(System.in);
 
-		ler.close();
-	}
+    int a, quan, m;
+    @SuppressWarnings("unused")
+    double p;
 
+    System.out.println("Insira o total de alunos na classe:");
+    a = gi.nextInt();
+
+    System.out.println("Insira a mencao:");
+    m=gi.nextInt();
+
+    switch (m) {
+        case 1:
+            System.out.println("quantidade de alunos com mencao MB");
+            quan = gi.nextInt();
+            p = quan*a/100;
+            System.out.println(p);
+            break;
+        case 2:
+            System.out.println("quantidade de alunos com mencao B");
+            quan = gi.nextInt();
+            p = quan*a/100;
+            System.out.println(p);
+            break;
+        case 3:
+            System.out.println("quantidade de alunos com mencao R");
+            quan = gi.nextInt();
+            p = quan*a/100;
+            System.out.println(p);
+            break;
+        case 4:
+            System.out.println("quantidade de alunos com mencao I");
+            quan = gi.nextInt();
+            p = quan*a/100;
+            System.out.println(p);
+            break;
+        default:
+            System.out.println("mencao invalida");
+            break;
+    }
+
+    gi.close();
+}
 }
