@@ -1,20 +1,21 @@
-
 public class TabuadaTurbinada {
+public static void main(String[] args) {
+    int i=1 , f = 1 , t;
 
-	public static void main(String[] args) {
-		int i = 1, t;
-		
-			while(i<=10) {
-				int y = 1;
-				while(y<=10) {
-					t = i*y;
-					System.out.println(i+"X"+y+"="+t);
-					i++;
-					
-					y++;
-				}
-			}
-	}
+        while(i<=11){
+            t = f*i;
+            System.out.println(f+" X "+i+" = "+t);
+            i++;
+            while (i==10 && f<=10) {
+                System.out.println(" ");
+                    f++;
+                    i=1; 
+                
+            }
+        }
+       
+    }
+
+   
 }
-
 
