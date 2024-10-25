@@ -5,12 +5,11 @@ public class AreaDoCirculo {
 		
 		Scanner in = new Scanner(System.in);
 		
-		double raio, π=3.14159, area;
+		double raio, pi=3.14159, area;
 		
 		raio = in.nextDouble();
-		area = π*(raio*raio);
-		
-		System.out.printf("A= %.4f",area);
+		area = pi*(raio*raio);
+		System.out.printf("A=%.4f%n",area);
 		
 		in.close();
 
