@@ -5,7 +5,7 @@ public class BuscaVetor {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		final int TAM = 5;
+		final int TAM = 10;
 		int a[] = new int [TAM];
 		int x, igual=0;
 		
@@ -25,7 +25,7 @@ public class BuscaVetor {
 		if(igual == 1) {
 			System.out.println("O valor "+x+" esta armazenado em A[]");
 		}else {
-			System.out.println("O valor "+x+" n„o esta armazenado em A[]");
+			System.out.println("O valor "+x+" n√£o esta armazenado em A[]");
 		}
 		
 		in.close();
