@@ -5,7 +5,7 @@ public class PrimoVetor {
 	public static void main(String[] args) {
 		Scanner Scanner = new Scanner(System.in);
 		
-		final int TAM = 2;
+		final int TAM = 10;
 		int naoPrimo=0, a[];
 		a = new int [TAM];
 		
@@ -20,9 +20,9 @@ public class PrimoVetor {
 			}
 			
 			if(naoPrimo>=1) {
-				System.out.println(a[j]+" Não é numero primo");
+				System.out.println(a[j]+" NÃ£o Ã© numero primo");
 			}else {
-				System.out.println(a[j]+" é um numero primo");
+				System.out.println(a[j]+" Ã© um numero primo");
 			}
 		}
 		
