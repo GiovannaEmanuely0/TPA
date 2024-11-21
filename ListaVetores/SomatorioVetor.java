@@ -5,7 +5,7 @@ public class SomatorioVetor {
 	public static void main(String[] args) {
 		Scanner Scanner = new Scanner(System.in);
 		
-		final int TAM = 2;
+		final int TAM = 10;
 		int soma = 0, a[] = new int [TAM], b[]= new int[TAM];
 		
 		
