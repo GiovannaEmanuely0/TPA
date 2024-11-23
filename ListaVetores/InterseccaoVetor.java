@@ -5,7 +5,7 @@ public class InterseccaoVetor {
 	public static void main(String[] args) {
 		Scanner Scanner = new Scanner(System.in);
 		
-		final int TAM = 3;
+		final int TAM = 20;
 		int a[] = new int [TAM];
 		int b[] = new int [TAM];
 		int c[] = new int [TAM];
