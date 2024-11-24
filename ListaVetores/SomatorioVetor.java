@@ -22,7 +22,7 @@ public class SomatorioVetor {
 		System.out.print("SOMATORIO B = [");
 		for(int i=0;i<TAM;i++){
 			if(i<TAM-1) {
-				System.out.print(b[i]+", ");
+				System.out.print(b[i]+" - ");
 			}else {
 				System.out.print(b[i]);
 			}
